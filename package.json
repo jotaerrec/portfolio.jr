@@ -1,6 +1,6 @@
 {
   "name": "frontendportfolio",
-  "version": "0.1.0",
+  "version": "0.1.0", 
   "private": true,
   "homepage": "http://jotaerrec.github.io/portfolio.jr/",
   "dependencies": {
