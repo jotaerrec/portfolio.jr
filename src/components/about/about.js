@@ -3,7 +3,7 @@ import './about.css'
 
 function About() {
     return (
-
+ 
         <div className="block mt-10 md:mt-36">
             <section className=" mx-auto max-w-7xl px-4">
                 <div className="text-center">
