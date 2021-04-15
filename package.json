@@ -2,7 +2,7 @@
   "name": "frontendportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jotaerrec.github.io",
+  "homepage": "https://jotaerrec.github.io/portfolio",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
