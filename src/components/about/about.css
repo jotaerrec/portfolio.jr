@@ -1,0 +1,62 @@
+.contact-text{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(41,171,226);
+}
+.about, .skills{
+    font-family: 'Dela Gothic One', cursive;
+}
+.bshadow{
+     /* text-shadow: 0px 0px 75px rgba(183,33,238,1); */
+}
+
+.shineskill{
+    background: linear-gradient(90deg, rgba(0,0,0,0.014443277310924318) 34%, rgba(255,255,255,1) 50%, rgba(0,0,0,0) 63%);
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 6s ease-in-out infinite alternate;
+    
+}
+.shine{
+   background: linear-gradient(90deg, rgba(0,0,0,0.014443277310924318) 34%, rgba(255,255,255,1) 50%, rgba(0,0,0,0) 63%);
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 2s ease-in-out infinite alternate;
+    
+}
+
+.stroke{
+    -webkit-text-stroke: .02em #fff;
+    text-stroke: 1px #fff;
+    color: transparent;
+    
+}
+.text-shine/* :hover */{
+    background: linear-gradient(to right, rgba(183,33,238,1) 20%, rgba(85,47,179,1) 52%, rgba(29,94,225,1) 80%,rgba(183,33,238,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 2.3s ease-in-out infinite alternate;
+}
+
+.text-shine:hover{
+    background-clip: text;
+    animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@media (min-width:600) {
+    .about{
+     text-shadow: 2px 2px 60px rgba(183,33,238,1)
+    }
+}
+@media (600px) {
+    
+}
+
+@keyframes textShine{
+    100% {
+    background-position: 200%;
+    }
+}

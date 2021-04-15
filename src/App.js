@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import Home from './components/home/home.js'
+import About from './components/about/about.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+      <p className="copyright-text hidden md:flex text-gray-200 md:fixed -left-16 animate__animated animate__fadeIn">&copy; 2021 Javier Rodriguez</p>
+      <Home/> 
+      <About/> 
     </div>
+    
   );
 }
 
