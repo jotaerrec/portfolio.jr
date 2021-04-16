@@ -92,7 +92,7 @@ function Home() {
                             </div>
                             <p className="textpro md:ml-96 mt-2 font-black text-xl">Full Stack Developer</p>
                         </div>      
-                    <div className="img-box mt-4 md:mt-18">
+                    <div className="img-box">
                         <img className=" justify-items-center img-face md:top-auto shadow-2xl ml-3 lg:ml-14 z-40" src="https://i.imgur.com/JLg9HG7.png" alt="" />
                     </div>
                 </div>
