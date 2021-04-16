@@ -45,7 +45,6 @@ function About() {
                             <h1 className="skills bshadow block stroke text-2xl md:text-5xl">MONGODB</h1>
                         </div>    
                     </div>
-
                 </div>
             </section>
 
@@ -58,7 +57,7 @@ function About() {
                         <a href="mailto:javi.r49915@gmail.com?" className="inline-flex"><img src="https://img.icons8.com/nolan/64/gmail.png" alt="gmail icon"/></a>
                         <a href="https://github.com/jotaerrec" className="inline-flex"><img src="https://img.icons8.com/nolan/64/github.png" alt="github icon"/></a>
                         <a href="https://www.instagram.com/javi.jpg_/" className="inline-flex"><img src="https://img.icons8.com/nolan/64/instagram-new.png" alt="instagram icon" /></a>
-                        <a href="https:www.linkedin.com/in/jotaerrec" className="inline-flex"><img src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkedin icon"/></a>
+                        <a href="https://www.linkedin.com/in/jotaerrec" className="inline-flex"><img src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkedin icon"/></a>
                     </div>
                 </div>
             </section>
