@@ -71,7 +71,7 @@ body{
         width: 30%;
     }
     .img-box{
-        top: 6em; 
+        margin-top: 0em; 
     }
     .patron{
         display: none;
