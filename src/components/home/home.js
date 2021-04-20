@@ -58,7 +58,7 @@ function Home() {
                         </div>
                         <div className="tech lg:mt-4">
                             <div className="curriculum text-shine font-extrabold">
-                                <a href="https://pdfhost.io/v/nFQ2gfHtZ_Azul_Lneas_Simple_Currculum.pdf"className="text-white text-3xl inline" >
+                                <a href="https://pdfhost.io/v/4IpQwAD64_Azul_Lneas_Simple_Currculum.pdf"className="text-white text-3xl inline" >
                                     Curriculum <img className="w-8 inline" src="https://img.icons8.com/nolan/64/open-resume.png" alt="cv" />
                                 </a>
                             </div>
@@ -74,7 +74,7 @@ function Home() {
                         </div>
 
                         <div className="curriculum-mb text-right mr-4 text-shine font-extrabold ">
-                            <a href="https://pdfhost.io/v/nFQ2gfHtZ_Azul_Lneas_Simple_Currculum.pdf"className=" text-base" >
+                            <a href="https://pdfhost.io/v/4IpQwAD64_Azul_Lneas_Simple_Currculum.pdf"className=" text-base" >
                                 Curriculum vitae </a>
                         </div>
                         <br />
