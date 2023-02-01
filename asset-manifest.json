@@ -1,22 +1,15 @@
 {
-  "files": {
-    "main.css": "/portfolio.jr/static/css/main.154c2872.chunk.css",
-    "main.js": "/portfolio.jr/static/js/main.59d337b7.chunk.js",
-    "main.js.map": "/portfolio.jr/static/js/main.59d337b7.chunk.js.map",
-    "runtime-main.js": "/portfolio.jr/static/js/runtime-main.97ca22d1.js",
-    "runtime-main.js.map": "/portfolio.jr/static/js/runtime-main.97ca22d1.js.map",
-    "static/js/2.76e797eb.chunk.js": "/portfolio.jr/static/js/2.76e797eb.chunk.js",
-    "static/js/2.76e797eb.chunk.js.map": "/portfolio.jr/static/js/2.76e797eb.chunk.js.map",
-    "static/js/3.e5da27f3.chunk.js": "/portfolio.jr/static/js/3.e5da27f3.chunk.js",
-    "static/js/3.e5da27f3.chunk.js.map": "/portfolio.jr/static/js/3.e5da27f3.chunk.js.map",
-    "index.html": "/portfolio.jr/index.html",
-    "static/css/main.154c2872.chunk.css.map": "/portfolio.jr/static/css/main.154c2872.chunk.css.map",
-    "static/js/2.76e797eb.chunk.js.LICENSE.txt": "/portfolio.jr/static/js/2.76e797eb.chunk.js.LICENSE.txt"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.97ca22d1.js",
-    "static/js/2.76e797eb.chunk.js",
-    "static/css/main.154c2872.chunk.css",
-    "static/js/main.59d337b7.chunk.js"
-  ]
+  "main.css": "/portfolio.jr/static/css/main.098bdd59.chunk.css",
+  "main.js": "/portfolio.jr/static/js/main.fb24a304.chunk.js",
+  "main.js.map": "/portfolio.jr/static/js/main.fb24a304.chunk.js.map",
+  "static/js/1.061a6d48.chunk.js": "/portfolio.jr/static/js/1.061a6d48.chunk.js",
+  "static/js/1.061a6d48.chunk.js.map": "/portfolio.jr/static/js/1.061a6d48.chunk.js.map",
+  "static/js/2.12d37e54.chunk.js": "/portfolio.jr/static/js/2.12d37e54.chunk.js",
+  "static/js/2.12d37e54.chunk.js.map": "/portfolio.jr/static/js/2.12d37e54.chunk.js.map",
+  "runtime~main.js": "/portfolio.jr/static/js/runtime~main.b0e14675.js",
+  "runtime~main.js.map": "/portfolio.jr/static/js/runtime~main.b0e14675.js.map",
+  "static/css/main.098bdd59.chunk.css.map": "/portfolio.jr/static/css/main.098bdd59.chunk.css.map",
+  "index.html": "/portfolio.jr/index.html",
+  "precache-manifest.acb93dc908510ebc160ac325f889cc53.js": "/portfolio.jr/precache-manifest.acb93dc908510ebc160ac325f889cc53.js",
+  "service-worker.js": "/portfolio.jr/service-worker.js"
 }
