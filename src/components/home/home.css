@@ -1,104 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;0,700;0,800;0,900;1,400;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;0,700;0,800;0,900;1,400;1,800;1,900&display=swap");
 
-body{
-    font-family: 'Nunito', sans-serif;
+body {
+  font-family: "Nunito", sans-serif;
 }
 
 .logo {
-    font-family: 'Dela Gothic One', cursive;
+  font-family: "Dela Gothic One", cursive;
 }
 
-.stroke{
-    -webkit-text-stroke: .02em #fff;
-    text-stroke: 1px #fff;
-    color: transparent;
-    
+.stroke {
+  -webkit-text-stroke: 0.02em #fff;
+  text-stroke: 1px #fff;
+  color: transparent;
 }
-.img-box{
-    margin-top: -4rem;
-    margin-bottom: 2.5rem;
-}
-
-.img-face{
-    width: 300px;
-    height: 300px;
-    margin-top: 10px;
-    -moz-box-shadow:     0 0 25px rgba(114, 114, 114, 0.774);
-    -webkit-box-shadow:  0 0 25px rgba(114, 114, 114, 0.774);
-    box-shadow:          0 0 25px rgba(114, 114, 114, 0.774);
-    border-radius: 150px;
-    border: 4px;
-    padding: 0px;
-   
-}
-.name{
-    font-family: 'Dela Gothic One', cursive;
-}
-.text-shine/* :hover */{
-    background: linear-gradient(to right, rgba(183,33,238,1) 20%, rgba(85,47,179,1) 52%, rgba(29,94,225,1) 80%,rgba(183,33,238,1) 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    background-size: 200% auto;
-    animation: textShine 2.3s ease-in-out infinite alternate;
+.img-box {
+  margin-top: -4rem;
+  margin-bottom: 2.5rem;
 }
 
-.text-shine:hover{
-    background-clip: text;
-    animation: textShine 8s ease-in-out infinite alternate;
+.img-face {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  -moz-box-shadow: 0 0 25px rgba(114, 114, 114, 0.774);
+  -webkit-box-shadow: 0 0 25px rgba(114, 114, 114, 0.774);
+  box-shadow: 0 0 25px rgba(114, 114, 114, 0.774);
+  border-radius: 150px;
+  border: 4px;
+  padding: 0px;
+}
+.name {
+  font-family: "Dela Gothic One", cursive;
+}
+.text-shine/* :hover */ {
+  background: linear-gradient(
+    to right,
+    rgba(183, 33, 238, 1) 20%,
+    rgba(85, 47, 179, 1) 52%,
+    rgba(29, 94, 225, 1) 80%,
+    rgba(183, 33, 238, 1) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: textShine 2.3s ease-in-out infinite alternate;
+}
+
+.text-shine:hover {
+  background-clip: text;
+  animation: textShine 8s ease-in-out infinite alternate;
 }
 .particles {
-    z-index: -1;
+  z-index: -1;
 }
-.technologies{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+.technologies {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
 }
-.patron{
-    top: 7rem;
+.patron {
+  top: 7rem;
 }
 
-@media (max-width:764px){
-    .contact, .curriculum{
-        display: none;
-    }
-} 
-
-@media (max-width:764px) {
-    .present{
-        position: relative;
-        width: 30%;
-    }
-    .img-box{
-        margin-top: 0em; 
-    }
-    .patron{
-        display: none;
-    }
-    .megabox{
-        margin-top: 10em;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    div.allb{
-        margin-right: 0px;
-        margin: 0px !important;
-    }
-    .textpro{
-        justify-items: right;
-    } 
-    .img-face{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-right: 20px;
-    }
-    .separador{
-        box-shadow: 2px 2px 50px 3px rgba(183,33,238,1);
-    }
+@media (max-width: 764px) {
+  .contact,
+  .curriculum {
+    display: none;
+  }
 }
-@keyframes textShine{
-    100% {
+
+@media (max-width: 764px) {
+  .present {
+    position: relative;
+  }
+  .img-box {
+    margin-top: 0em;
+  }
+  .patron {
+    display: none;
+  }
+  div.allb {
+    margin-right: 0px;
+    margin: 0px !important;
+  }
+  .textpro {
+    justify-items: right;
+  }
+  .img-face {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .separador {
+    box-shadow: 2px 2px 50px 3px rgba(183, 33, 238, 1);
+  }
+}
+@keyframes textShine {
+  100% {
     background-position: 200%;
-    }
+  }
 }
