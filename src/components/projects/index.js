@@ -38,7 +38,7 @@ const Projects = () => {
         <figure className="flex items-center justify-center">
           <img
             className=" rounded-2xl"
-            src={process.env.PUBLIC_URL + "img/domoticmood.png"}
+            src={process.env.PUBLIC_URL + "/img/domoticmood.png"}
             alt=""
             srcset=""
           />
