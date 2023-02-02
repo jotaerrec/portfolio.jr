@@ -19,19 +19,20 @@ const Projects = () => {
           <button className="  rounded-xl p-2 text-xs bg-transparent w-max border border-gray-400 hover:bg-purple-900">
             <a href="https://publicdomoticmood.netlify.app/">
               {" "}
-              Visite la pagina{" "}
+              Visit the page{" "}
             </a>
           </button>
           <p className=" text-xs text-gray-500">
-            DomoticMood es un proyecto IOT que consiste en un servicio de
-            domotica. <br /> En este proyecto se utilizo NodeJs+Express en el
-            servidor, ReactJS en el cliente, Arduino en el microcontrolador,
-            SocketIO y HTTP request para la comunicacion entre ellos.
+            DomoticMood is an IOT project that consists of a service of home
+            automation. <br />
+            In this project NodeJs+Express was used in the server, ReactJS on
+            the client, Arduino on the microcontroller, SocketIO and HTTP
+            request for communication between them.
           </p>
           <button className=" rounded-xl p-2 text-xs bg-transparent  border border-gray-400 hover:bg-purple-900">
             <a href="https://github.com/jotaerrec/DomoticMood/">
               {" "}
-              Ver codigo fuente{" "}
+              See the source code{" "}
             </a>
           </button>
         </div>
